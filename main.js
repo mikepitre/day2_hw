@@ -9,18 +9,31 @@ body {
 
 .navbar {
 	height: 50px;
-	background: #1477B3;	
+	background: #1477B3;
+	position: relative;
 }
 
-/*.titlelogo {
+.titlelogo {
 	height: 35px;
 	background: white;
+	width: 35px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	margin-top: -17.5px;
 }
 
 .titlelink {
 	height: 35px;
 	background: white;
-}*/
+	width: 120px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin-top: -17.5px;
+	left: 60px;
+}
 
 .login {
 	float: right;
@@ -78,6 +91,22 @@ h4 {
 	margin: 30px 77px 0px 77px;
 	height: 70px;
 	background: white;
+	position: relative;
+}
+
+.graysquare {
+	height: 57px;
+	background: #4E5A6B;
+	position: absolute;
+	width: 50px;
+	top: 13px;
+
+}
+
+.grayrectangle {
+	height: 57px;
+	background: #4E5A6B;
+	margin: 0 4px 0 60px;
 }
 
 .description {
@@ -92,6 +121,25 @@ h4 {
 	border-right: 10px solid #C4C6CC;
 	background: white;
 	height: 215px;
+}
+
+.featurepic {
+	height: 62px;
+	width: 62px;
+	background: #BBC8CF;
+	margin: 20px auto 0 auto;
+}
+
+.featuretitle {
+	height: 25px;
+	background: #BBC8CF;
+	margin: 10px 15px 0 15px;
+}
+
+.featuredetail {
+	height: 50px;
+	background: #BBC8CF;
+	margin: 18px 15px 0 15px; 
 }
 
 .prefooter {
