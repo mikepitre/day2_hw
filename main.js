@@ -113,9 +113,14 @@ h4 {
 }
 
 .description {
-	height: 190px;
+	height: 120px;
 	background: rgb(226,236,243);
 	margin: 75px 0 0 0;
+	text-align: center;
+	padding: 35px 20px;
+	font-size: 24px;
+	line-height: 35px;
+	color: #191435;
 }
 
 .features {
