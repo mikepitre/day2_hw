@@ -93,13 +93,12 @@ h4 {
 .highlights {
 	margin: 30px 77px 0px 77px;
 	height: 70px;
-	background: white;
 	position: relative;
 }
 
 .graysquare {
 	height: 57px;
-	background: #4E5A6B;
+	background: white;
 	position: absolute;
 	width: 50px;
 	top: 13px;
@@ -108,8 +107,20 @@ h4 {
 
 .grayrectangle {
 	height: 57px;
-	background: #4E5A6B;
 	margin: 0 4px 0 60px;
+}
+
+.grayrectangle > h3 {
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 12px;
+}
+
+.grayrectangle > p {
+	color: #BFD8DF;
+	font-size: 14px;
+	margin-top: -10px;
 }
 
 .description {
@@ -140,20 +151,32 @@ h4 {
 
 .featuretitle {
 	height: 25px;
-	background: #BBC8CF;
 	margin: 10px 15px 0 15px;
+	text-align: center;
+	line-height: 25px;
+	color: #1B3A6B;
+	font-size: 20px;
 }
 
 .featuredetail {
 	height: 50px;
-	background: #BBC8CF;
-	margin: 18px 15px 0 15px; 
+	margin: 18px 15px 0 15px;
+	text-align: center;
+	color: #342B38;
+	line-height: 20px;  
 }
 
 .prefooter {
 	height: 170px;
 	background: #E2ECF3;
 	border-top: 33px solid #C4C6CC;
+}
+
+.prefooter > p {
+	text-align: center;
+	color: #191435;
+	font-size: 24px;
+	padding: 0 20px;
 }
 
 .prefooterbutton {
@@ -163,7 +186,7 @@ h4 {
 	color: white;
 	font-size: 22px;
 	background: rgb(21,119,179);
-	margin: 100px auto 0;
+	margin: 50px auto 0;
 	line-height: 50px;
 	width: 210px;
 }
