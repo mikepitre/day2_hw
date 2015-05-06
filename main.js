@@ -26,13 +26,16 @@ body {
 
 .titlelink {
 	height: 35px;
-	background: white;
 	width: 120px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
-	margin-top: -17.5px;
 	left: 60px;
+	margin-top: -7.5px;
+}
+
+.com {
+	color: #76C3E4;
 }
 
 .login {
