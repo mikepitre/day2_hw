@@ -4,18 +4,21 @@ a {
 }
 
 body {
-	background: rgb(39,48,63);
+	background: rgb(39,48,63) url(images/crowd.jpg);
+	background-size: 100%, 100%, contain;
+	background-repeat: no-repeat;
 }
 
 .navbar {
 	height: 50px;
-	background: #1477B3;
+	background: #1d8cbe;
 	position: relative;
 }
 
 .titlelogo {
 	height: 35px;
-	background: white;
+	background: white url(images/logo.png);
+	background-size: cover;
 	width: 35px;
 	display: inline-block;
 	position: absolute;
@@ -48,12 +51,6 @@ body {
 	color: white; 
 }
 
-.jumbotron {
-	height: 
-	background: rgb(39,48,63);
-
-}
-
 .maintext {
 	text-align: center;
 	margin-top: 165px;
@@ -71,6 +68,12 @@ h4 {
 	font-weight: normal;
 }
 
+/*.jumbotron {
+	height: 945px;
+	background-image: url(images/crowd.jpg);
+	background-size: cover;
+}*/
+
 .jumbotronbutton {
 	text-align: center;
 	height: 50px;
@@ -78,9 +81,10 @@ h4 {
 	font-size: 25px;
 	background: rgb(21,119,179);
 	margin: 35px auto 0;
-	border: 10px solid rgb(25,30,40);
+	/*border: 10px solid rgb(25,30,40);*/
 	line-height: 50px;
 	width: 210px;
+	box-shadow: 0 0 0 10px rgba(0,0,0,.4);
 }
 
 .arrow {
@@ -91,18 +95,32 @@ h4 {
 }
 
 .highlights {
-	margin: 30px 77px 0px 77px;
+	margin: 30px auto;
+	width: 300px;
 	height: 70px;
 	position: relative;
 }
 
 .graysquare {
 	height: 57px;
-	background: white;
 	position: absolute;
 	width: 50px;
 	top: 13px;
+}
 
+.mobile {
+	background-image: url(images/tablet.png);
+	background-repeat: no-repeat;
+}
+
+.pressed {
+	background-image: url(images/newspaper.png);
+	background-repeat: no-repeat;
+}
+
+.designs {
+	background-image: url(images/paint-brush.png);
+	background-repeat: no-repeat;
 }
 
 .grayrectangle {
@@ -147,6 +165,50 @@ h4 {
 	width: 62px;
 	background: #BBC8CF;
 	margin: 20px auto 0 auto;
+	background-size: contain;
+	border-radius: 100%;
+}
+
+.lightbulb {
+	background-image: url(images/lightbulb.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cloud {
+	background-image: url(images/cloud.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.code {
+	background-image: url(images/code.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.comments {
+	background-image: url(images/comments.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gift {
+	background-image: url(images/gift.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.globe {
+	background-image: url(images/globe.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .featuretitle {
@@ -215,7 +277,10 @@ footer {
 
 .footerbutton {
 	height: 25px;
-	background: white;
 	margin: 10px auto 0px auto;
 	width: 135px;
+	background-image: url(images/automattic.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
