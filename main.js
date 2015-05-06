@@ -5,8 +5,8 @@ a {
 
 body {
 	background: rgb(39,48,63) url(images/crowd.jpg);
-	background-size: 100%, 100%, contain;
-	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1175px;
 }
 
 .navbar {
@@ -90,8 +90,9 @@ h4 {
 .arrow {
 	margin: 215px auto 135px auto;
 	height: 20px;
-	background: white;
 	width: 50px;
+	color: white;
+	font-size: 48px;
 }
 
 .highlights {
