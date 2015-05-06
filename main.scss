@@ -1,5 +1,5 @@
 $primary-color: #1d8cbe;
-$features-background: #C4C6CC;
+$features-background-color: #C4C6CC;
 
 
 a {
@@ -104,21 +104,19 @@ h4 {
 	position: absolute;
 	width: 50px;
 	top: 13px;
+	background-repeat: no-repeat;
 }
 
 .mobile {
 	background-image: url(images/tablet.png);
-	background-repeat: no-repeat;
 }
 
 .pressed {
 	background-image: url(images/newspaper.png);
-	background-repeat: no-repeat;
 }
 
 .designs {
 	background-image: url(images/paint-brush.png);
-	background-repeat: no-repeat;
 }
 
 .grayrectangle {
@@ -149,9 +147,9 @@ h4 {
 }
 
 .features {
-	border-top: 33px solid $features-background;
-	border-left: 10px solid $features-background;
-	border-right: 10px solid $features-background;
+	border-top: 33px solid $features-background-color;
+	border-left: 10px solid $features-background-color;
+	border-right: 10px solid $features-background-color;
 	background: white;
 	height: 215px;
 }
@@ -163,48 +161,33 @@ h4 {
 	margin: 20px auto 0 auto;
 	background-size: contain;
 	border-radius: 100%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .lightbulb {
 	background-image: url(images/lightbulb.png);
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .cloud {
 	background-image: url(images/cloud.png);
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .code {
 	background-image: url(images/code.png);
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .comments {
 	background-image: url(images/comments.png);
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .gift {
 	background-image: url(images/gift.png);
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .globe {
 	background-image: url(images/globe.png);
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .featuretitle {
@@ -227,15 +210,13 @@ h4 {
 .prefooter {
 	height: 170px;
 	background: #E2ECF3;
-	border-top: 33px solid $features-background;
+	border-top: 33px solid $features-background-color;
 	p {
 		text-align: center;
 		font-size: 24px;
 		padding: 0 20px;
 	}
 }
-
-
 
 .prefooterbutton {
 	font-weight: normal;

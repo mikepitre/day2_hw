@@ -87,19 +87,17 @@ h4 {
   height: 57px;
   position: absolute;
   width: 50px;
-  top: 13px; }
+  top: 13px;
+  background-repeat: no-repeat; }
 
 .mobile {
-  background-image: url(images/tablet.png);
-  background-repeat: no-repeat; }
+  background-image: url(images/tablet.png); }
 
 .pressed {
-  background-image: url(images/newspaper.png);
-  background-repeat: no-repeat; }
+  background-image: url(images/newspaper.png); }
 
 .designs {
-  background-image: url(images/paint-brush.png);
-  background-repeat: no-repeat; }
+  background-image: url(images/paint-brush.png); }
 
 .grayrectangle {
   height: 57px;
@@ -137,43 +135,28 @@ h4 {
   background: #BBC8CF;
   margin: 20px auto 0 auto;
   background-size: contain;
-  border-radius: 100%; }
+  border-radius: 100%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .lightbulb {
-  background-image: url(images/lightbulb.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(images/lightbulb.png); }
 
 .cloud {
-  background-image: url(images/cloud.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(images/cloud.png); }
 
 .code {
-  background-image: url(images/code.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(images/code.png); }
 
 .comments {
-  background-image: url(images/comments.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(images/comments.png); }
 
 .gift {
-  background-image: url(images/gift.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(images/gift.png); }
 
 .globe {
-  background-image: url(images/globe.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(images/globe.png); }
 
 .featuretitle {
   height: 25px;
