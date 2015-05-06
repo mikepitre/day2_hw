@@ -249,7 +249,7 @@ h4 {
 	color: white;
 	font-size: 22px;
 	background: rgb(21,119,179);
-	margin: 50px auto 0;
+	margin: 30px auto 0;
 	line-height: 50px;
 	width: 210px;
 }
